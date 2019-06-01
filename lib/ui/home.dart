@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hackathon_flutter_2019/card_challange.dart';
+import 'package:hackathon_flutter_2019/ui/card_challange.dart';
 
 class Home extends StatefulWidget {
   @override

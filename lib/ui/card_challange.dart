@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackathon_flutter_2019/ui/info_challenge.dart';
 
 class CardChallenge extends StatefulWidget {
   int _index;
@@ -65,6 +66,9 @@ class _CardChallengeState extends State<CardChallenge> {
           ),
         ),
       ),
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => InfoCardChallenge(_index, _title, _description)));
+      },
     );
   }
 }
