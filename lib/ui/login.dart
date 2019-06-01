@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackathon_flutter_2019/ui/home.dart';
 
 class Login extends StatefulWidget {
   static String tag = 'login';
@@ -32,7 +33,7 @@ class _LoginState extends State<Login> {
         initialValue: '1234',
         decoration: InputDecoration(
           hintText: 'Senha',
-    ));
+        ));
 
     final loginButton = Padding(
       padding: EdgeInsets.symmetric(vertical: 16.0),
@@ -42,7 +43,10 @@ class _LoginState extends State<Login> {
           borderRadius: BorderRadius.circular(24),
         ),
         onPressed: () {
-          // Navigator.of(context).pushNamed(HomePage.tag);
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Home()),
+          );
         },
         child: Text('Log In', style: TextStyle(color: Colors.lightBlueAccent)),
       ),
@@ -59,7 +63,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
       body: Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
+              gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
