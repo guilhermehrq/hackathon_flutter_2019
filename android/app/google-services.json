@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1036948038569",
+    "firebase_url": "https://hackathon-a7854.firebaseio.com",
+    "project_id": "hackathon-a7854",
+    "storage_bucket": "hackathon-a7854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036948038569:android:651ede1b13e96379",
+        "android_client_info": {
+          "package_name": "com.example.hackathonflutter2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036948038569-gao2h6dktjd1rdpkutkn7otqb774rjq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLNbCXeuip9tz3PkzDkzGYhc5Eb45wOA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036948038569-gao2h6dktjd1rdpkutkn7otqb774rjq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
