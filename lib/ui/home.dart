@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
                         ),
                       ),
                       Text(
-                        'Desafios: 10',
+                        'Desafios concluídos: 10',
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 16
