@@ -7,8 +7,9 @@ void main() {
     title: 'Cópia do Tinder',
     home: Home(),
     theme: ThemeData(
-        primaryColor: Colors.white,
-        accentColor: Colors.amberAccent
+        primaryColor: Color.fromRGBO(86, 196, 245, 1),
+        brightness: Brightness.dark,
+        accentColor: Color.fromRGBO(0, 87, 155, 1)
     ),
   ));
 }
