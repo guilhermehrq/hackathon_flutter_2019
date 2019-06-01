@@ -72,7 +72,7 @@ class _LoginState extends State<Login> {
 
     final forgotLabel = FlatButton(
       child: Text(
-        'Esqueceu a senha?',
+        'Forgot your password?',
         style: TextStyle(color: Colors.white),
       ),
       onPressed: () {},

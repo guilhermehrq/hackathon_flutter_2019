@@ -31,9 +31,13 @@ class _InfoCardChallengeState extends State<InfoCardChallenge> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(leading: IconButton(icon: Icon(Icons.arrow_back), onPressed: () {
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back), onPressed: () {
         Navigator.pop(context);
-      }, color: Color.fromRGBO(0, 87, 155, 1),),
+      },),
+        elevation: 0,
       ),
       body: Container(
         padding: EdgeInsets.all(8.0),
@@ -52,7 +56,7 @@ class _InfoCardChallengeState extends State<InfoCardChallenge> {
             ),
             Divider(),
             Text(
-              'Comentários',
+              'Comments',
               style: TextStyle(fontSize: 16.0, color: Colors.black),
             ),
             Container(
@@ -75,6 +79,13 @@ class _InfoCardChallengeState extends State<InfoCardChallenge> {
       ),)
           ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: Icon(Icons.thumb_up),
+        backgroundColor: Colors.green,
       ),
     );
   }
