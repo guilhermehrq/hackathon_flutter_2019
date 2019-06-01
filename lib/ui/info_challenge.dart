@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:hackathon_flutter_2019/ui/comments.dart';
 
 class InfoCardChallenge extends StatefulWidget {
   int _index;
@@ -36,7 +37,7 @@ class _InfoCardChallengeState extends State<InfoCardChallenge> {
       ),
       body: Container(
         padding: EdgeInsets.all(8.0),
-        child: Column(
+        child: ListView(
           children: <Widget>[
             Container(
               padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
@@ -54,6 +55,24 @@ class _InfoCardChallengeState extends State<InfoCardChallenge> {
               'Comentários',
               style: TextStyle(fontSize: 16.0, color: Colors.black),
             ),
+            Container(
+        padding: EdgeInsets.all(8),
+              child: Column(
+        children: <Widget>[
+          Comments(
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan.',
+              'M',
+              Colors.amber),
+          Comments(
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nibh nulla, mattis vitae porta vitae, pharetra eu odio. Nunc sagittis consequat est, in aliquam arcu hendrerit sit amet.',
+              'J',
+              Colors.blue),
+          Comments(
+              'Vestibulum eget suscipit lacus. Nullam ac mattis massa. Vivamus sagittis nisi laoreet gravida vulputate.',
+              'A',
+              Colors.indigo),
+        ],
+      ),)
           ],
         ),
       ),
