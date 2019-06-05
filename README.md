@@ -1,6 +1,6 @@
 # hackathon_flutter_2019
 
-A new Flutter project.
+Flutter project developed for the first global flutter hackathon, and won the first place at Franca's hub at 1st of June 2019.
 
 ## Getting Started
 
