@@ -2,6 +2,8 @@
 
 Flutter project developed for the first global flutter hackathon, and won the first place at Franca's hub at 1st of June 2019.
 
+See a demo of the project at: [Flutterin](https://www.youtube.com/watch?v=AfBlBzjiiFc)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
